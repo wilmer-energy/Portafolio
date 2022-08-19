@@ -1,0 +1,72 @@
+.contenido-descripcion {
+    align-items: top;
+}
+.content-right{
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content-right ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.content-right li {
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.content-right li:hover {
+    color: #3dff3e;
+    transform: scale(1.05);
+    border-color: #3dff3e;
+}
+
+.content-left {
+    margin-left: 0;
+    width: 30%;
+}
+
+.content-left .titulo span:first-child {
+    font-size: 25px;
+}
+
+.content-left .titulo span:last-child {
+    font-size: 60px;
+}
+
+.content-left ul {
+    list-style: none;
+    font-size: 18px;
+}
+
+.card {
+    border: 1px white solid;
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    text-align: left;
+}
+.card img {
+    height: 150px;
+    
+}
+.educationName {
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
