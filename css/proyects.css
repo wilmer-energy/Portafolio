@@ -40,15 +40,10 @@ gap: 2%;
 align-items: center;
 justify-content: center;
 }
-.btn-link{
-    
-    background-color: black;
-    border-radius: 0 0 10px 10px;
-    text-align: center;
-    align-items: center;
+.card a{
+    display: inline-block;
     width: 100%;
-    height: 30px;
-    font-weight: 700;
+    text-align: center;
 }
 .pass{
     background-color: transparent;
@@ -64,4 +59,20 @@ justify-content: center;
 }
 .disable{
     display: none;
+}
+
+@media screen and (max-width: 500px){
+    .pass{
+        display: none;
+    }
+    .content-left{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .content-right{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+   
 }

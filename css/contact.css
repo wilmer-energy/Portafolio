@@ -29,3 +29,21 @@
 .content-left a:hover{
     color: #3dff3e;
 }
+
+@media screen and (max-width: 500px){
+    .contenedor{
+        background: none;
+    }
+    .content-left{
+        width: 100%;
+    }
+    .content-left ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content-left li{
+        width: 70vw;
+    }
+}
