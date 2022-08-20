@@ -31,7 +31,7 @@ body {
     margin-top: 15px;
     padding: 20px 30px;
     position: relative;
-    z-index: 99;
+    z-index: 1;
     opacity: .85;
 }
 
@@ -181,13 +181,20 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
     }
     .visible ul{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 40px;
+    }
+    #btnHamburger{
+        background-color: transparent;
+        
+    }
+    #btnHamburger i{
+        color: #3dff3e;
     }
 }
